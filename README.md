@@ -1,4 +1,3 @@
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 # Sorting Algorithm ![Language](https://img.shields.io/badge/language-java-orange.svg) 
 
 #### 一、稳定性
@@ -35,11 +34,11 @@
 
 | 排序算法 | 最差时间 | 平均时间复杂度 | 稳定度 | 空间复杂度 |
 |---|---|---|---|---|
-|选择排序|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|3|4|5|
-|插入排序|2|3|4|5|
-|冒泡排序|2|3|4|5|
-|快速排序|2|3|4|5|
-|归并排序|2|3|4|5|
-|希尔排序|2|3|4|5|
-|堆排序|2|3|4|5|
-|基数排序|3|3|4|5|
+|选择排序|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|稳定|O(1)|
+|插入排序|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|稳定|O(1)|
+|冒泡排序|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|稳定|O(1)|
+|快速排序|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|![](http://chart.googleapis.com/chart?cht=tx&chl=n*log_2n)|不稳定|![](http://chart.googleapis.com/chart?cht=tx&chl=O(log_2n)) ~ O(n)|
+|归并排序|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|![](http://chart.googleapis.com/chart?cht=tx&chl=n*logn)|稳定|不一定|
+|希尔排序|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))||不稳定|O(1)|
+|堆排序|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))||不稳定|O(1)|
+|基数排序|O(kn)||稳定|O(kn)|
