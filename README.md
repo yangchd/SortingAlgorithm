@@ -34,11 +34,6 @@
 
 | 排序算法 | 最差时间 | 平均时间复杂度 | 稳定度 | 空间复杂度 |
 |---|---|---|---|---|
-|选择排序|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|稳定|O(1)|
 |插入排序|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|稳定|O(1)|
+|选择排序|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|稳定|O(1)|
 |冒泡排序|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|稳定|O(1)|
-|快速排序|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|![](http://chart.googleapis.com/chart?cht=tx&chl=n*log_2n)|不稳定|![](http://chart.googleapis.com/chart?cht=tx&chl=O(log_2n)) ~ O(n)|
-|归并排序|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|![](http://chart.googleapis.com/chart?cht=tx&chl=n*logn)|稳定|不一定|
-|希尔排序|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))||不稳定|O(1)|
-|堆排序|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))||不稳定|O(1)|
-|基数排序|O(kn)||稳定|O(kn)|
