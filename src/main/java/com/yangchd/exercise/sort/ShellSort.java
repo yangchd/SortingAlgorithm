@@ -4,6 +4,9 @@ package com.yangchd.exercise.sort;
  * @author yangchd  2018/5/28.
  *
  * 希尔排序 又被称为缩小增量排序
+ * 1.将数的个数设为n，取数k=n/2，将下标差值为k的书分为一组，构成有序序列。
+ * 2.再取k=k/2 ，将下标差值为k的书分为一组，构成有序序列。
+ * 3.重复第二步，直到k=1执行简单插入排序。
  */
 public class ShellSort {
 

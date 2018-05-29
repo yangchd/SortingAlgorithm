@@ -36,4 +36,5 @@
 |---|---|---|---|---|
 |插入排序|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|稳定|O(1)|
 |希尔排序|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n*(logn)^2))|不稳定|O(1)|
+|选择排序|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|稳定|O(1)|
 

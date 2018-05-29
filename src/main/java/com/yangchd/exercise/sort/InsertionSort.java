@@ -4,6 +4,9 @@ package com.yangchd.exercise.sort;
  * @author yangchd  2018/5/28.
  *
  * 插入排序
+ * 1.将第一个数和第二个数排序，然后构成一个有序序列
+ * 2.将第三个数插入进去，构成一个新的有序序列。
+ * 3.对第四个数、第五个数……直到最后一个数，重复第二步。
  */
 public class InsertionSort {
 
