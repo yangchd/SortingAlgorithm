@@ -39,7 +39,7 @@
 |直接选择排序|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(1))|不稳定|
 |堆排序|![](http://chart.googleapis.com/chart?cht=tx&chl=O(nlog_2n))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(nlog_2n))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(nlog_2n))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(1))|不稳定|
 |冒泡排序|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(1))|稳定|
-|快速排序|![](http://chart.googleapis.com/chart?cht=tx&chl=O(nlog_2n))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(nlog_2n))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(nlog_2n))|不稳定|
+|快速排序|![](http://chart.googleapis.com/chart?cht=tx&chl=O(nlog_2n))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(nlog_2n))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(log_2n)) ~ ![](http://chart.googleapis.com/chart?cht=tx&chl=O(n))|不稳定|
 |归并排序|![](http://chart.googleapis.com/chart?cht=tx&chl=O(nlog_2n))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(nlog_2n))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(nlog_2n))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n))|稳定|
-|基数排序|![](http://chart.googleapis.com/chart?cht=tx&chl=O(d(n+r)))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(d(n+r)))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(d(n+r)))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n+r))|稳定|
+|基数排序|O(d(n+r))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(d(n+r)))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(d(n+r)))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n+r))|稳定|
 
