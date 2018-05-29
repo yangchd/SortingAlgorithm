@@ -3,6 +3,7 @@
 
 .idea
 /src/test
+/target
 *.iml
 *.xml
 

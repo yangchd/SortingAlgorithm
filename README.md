@@ -2,7 +2,7 @@
 
 #### 一、稳定性
 
-- 稳定：冒泡排序、插入排序、归并排序和基数排序
+- 稳定：冒泡排序、直接插入排序、归并排序和基数排序
 
 - 不稳定：选择排序、快速排序、希尔排序、堆排序
 
@@ -34,7 +34,7 @@
 
 | 排序算法 | 最差时间 | 平均时间复杂度 | 稳定度 | 空间复杂度 |
 |---|---|---|---|---|
-|插入排序|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|稳定|O(1)|
+|直接插入排序|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|稳定|O(1)|
 |希尔排序|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n*(logn)^2))|不稳定|O(1)|
 |选择排序|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|稳定|O(1)|
 
