@@ -32,9 +32,14 @@
 
 #### 三、复杂度
 
-| 排序算法 | 最差时间 | 平均时间复杂度 | 稳定度 | 空间复杂度 |
-|---|---|---|---|---|
-|直接插入排序|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|稳定|O(1)|
-|希尔排序|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n*(logn)^2))|不稳定|O(1)|
-|选择排序|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|稳定|O(1)|
+| 排序算法 | 最好时间 | 最差时间 | 平均时间复杂度 | 空间复杂度 | 稳定度 |
+|---|---|---|---|---|---|
+|直接插入排序|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(1))|稳定|
+|希尔排序|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(nlog_2n))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(1))|不稳定|
+|直接选择排序|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(1))|不稳定|
+|堆排序|![](http://chart.googleapis.com/chart?cht=tx&chl=O(nlog_2n))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(nlog_2n))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(nlog_2n))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(1))|不稳定|
+|冒泡排序|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(1))|稳定|
+|快速排序|![](http://chart.googleapis.com/chart?cht=tx&chl=O(nlog_2n))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n^2))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(nlog_2n))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(nlog_2n))|不稳定|
+|归并排序|![](http://chart.googleapis.com/chart?cht=tx&chl=O(nlog_2n))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(nlog_2n))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(nlog_2n))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n))|稳定|
+|基数排序|![](http://chart.googleapis.com/chart?cht=tx&chl=O(d(n+r)))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(d(n+r)))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(d(n+r)))|![](http://chart.googleapis.com/chart?cht=tx&chl=O(n+r))|稳定|
 
