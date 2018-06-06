@@ -1,6 +1,4 @@
-package com.yangchd.exercise.sort;
-
-import java.util.Arrays;
+package com.yangchd.sort;
 
 /**
  * @author yangchd 2018/5/29

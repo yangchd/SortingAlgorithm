@@ -1,4 +1,4 @@
-package com.yangchd.exercise.sort;
+package com.yangchd.sort;
 
 /**
  * @author yangchd  2018/5/28.
